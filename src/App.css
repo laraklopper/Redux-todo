@@ -1,0 +1,131 @@
+/* body */
+body{
+  width: 98%;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  background-color: #404040;
+
+}
+
+.App {
+  text-align: center;
+    background-color: #404040;
+    padding: 15px;
+    margin: 0px;
+
+}
+/* Header */
+#header {
+  padding: 15px;
+  background: linear-gradient(to bottom left, #5c7e80 13%, #9cd7d9 93%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-right: 2px;
+
+}
+#heading {
+  padding: 15px;
+}
+
+.h1 {
+  padding: 0px;
+  font-family: 'Angkor', cursive;
+  font-weight: bold;
+  margin: 0px;
+  font-size: 32px;
+}
+/* section */
+#section {
+  background: linear-gradient(to top right, #acbfbf 11%, #737f80 84%);
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-right: 2px;
+}
+
+/* form */
+#form-section{
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#label{
+  font-family: 'Bree Serif', serif;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+
+
+#form{
+margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 15px;
+}
+
+/* Button */
+#addTaskBtn{
+  -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin: 5px;
+    padding: 5px;
+   font-family: 'Varela Round', sans-serif;;
+}
+#addTaskBtn:hover{ 
+  background-color: #2c8768;
+}
+
+
+.button{
+-webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.button:hover{
+  background-color: #62B5D9
+}
+/* Task List */
+
+.h2{
+  font-family: 'Alkatra', cursive;
+}
+#todo-list {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: fit-content;
+  display: inline;
+}
+
+#task-list {
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  font-weight: 700;
+  padding: 10px;
+  margin: 10px;
+  background-color: #658B8C;
+  list-style-type: none;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+
+}
+
+.task {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 20px;
+}
